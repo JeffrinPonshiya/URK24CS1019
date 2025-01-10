@@ -1,0 +1,13 @@
+print("URK24CS1019")
+print("JEFFRIN PONSHIYA")
+def is_palindrome(number) :
+  str_number = str(number)
+  if str_number == str_number[ : : - 1]:
+    return True
+  else:
+    return False
+number = int(input("Enter a number to check if it's a palindrome: "))
+if is_palindrome(number) :
+    print(number, "is a palindrome.")
+else:
+    print(number, "is not a palindrome.")
