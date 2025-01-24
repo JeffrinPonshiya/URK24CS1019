@@ -1,0 +1,11 @@
+print("URK24CS1019")
+print("JEFFRIN PONSHIYA")
+Marks=int(input("Enter your Marks:"))
+if Marks>=90:
+    print("Grade A")
+elif Marks>= 75 and Marks<90:
+    print("Grade B")
+elif Marks>= 50 and Marks<75:
+    print("Grade C")
+else:
+    print("Grade F")
