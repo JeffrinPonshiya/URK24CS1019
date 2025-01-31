@@ -9,3 +9,5 @@ elif Marks>= 50 and Marks<75:
     print("Grade C")
 else:
     print("Grade F")
+
+"Added message to the code"
